@@ -38,5 +38,7 @@ def selective_tweet_shortener(tweets)
 end
 
 def shortened_tweet_truncator(tweets)
-    
+  
+  
+    puts tweets[1..140]
 end
