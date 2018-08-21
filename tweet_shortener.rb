@@ -40,5 +40,4 @@ end
 def shortened_tweet_truncator(tweets)
   newtweet = selective_tweet_shortener(tweets)
   tweets.chars.length > 140 ? "#{tweets[1..140]} ..." : newtweets
-  end
 end
