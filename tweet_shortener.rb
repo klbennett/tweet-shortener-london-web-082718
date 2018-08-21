@@ -41,4 +41,5 @@ def shortened_tweet_truncator(tweets)
   selective_tweet_shortener
   if tweets > 140
     puts "#{tweets[1..140]} ..."
+  end
 end
